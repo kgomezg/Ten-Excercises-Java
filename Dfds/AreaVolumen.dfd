@@ -1,0 +1,35 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+5
+1
+10
+Leer radio
+6
+2
+2
+_r
+7
+entrada
+2
+PI
+7
+Math.PI
+6
+2
+4
+area
+11
+(_r^2) * PI
+7
+volumen
+21
+((_r^3) * PI) * 0.75)
+4
+1
+22
+Imprimir area, volumen
+1

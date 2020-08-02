@@ -1,0 +1,109 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+6
+3
+9
+SILLASBUS
+2
+60
+13
+PUESTOSGORDOS
+1
+2
+13
+PUESTOSFLACOS
+1
+1
+6
+3
+11
+VALORCOMIDA
+5
+10000
+13
+COMIDASGORDOS
+1
+5
+13
+COMIDASFLACOS
+1
+3
+6
+2
+21
+HABITACIONESTUDIANTES
+1
+4
+16
+PRECIOHABITACION
+5
+25000
+6
+3
+15
+_cantidadGordos
+1
+0
+15
+_cantidadFlacos
+1
+0
+10
+_diasPaseo
+1
+0
+5
+1
+44
+_diasPaseo, _cantidadGordos, _cantidadFlacos
+6
+3
+16
+comidasGordosDia
+31
+_cantidadGordos * COMIDASGORDOS
+16
+comidasFlacosDia
+31
+_cantidadFlacos * COMIDASFLACOS
+17
+cantidadComidaDia
+35
+comidasFlacosDia + comidasGordosDia
+6
+3
+15
+precioComidaDia
+31
+cantidadComidaDia * VALORCOMIDA
+19
+cantidadComidaTotal
+30
+cantidadComidaDia * _diasPaseo
+17
+precioComidaTotal
+33
+cantidadComidaTotal * VALORCOMIDA
+6
+3
+15
+cantidadCuartos
+71
+Math.round((_cantidadGordos + _cantidadFlacos) / HABITACIONESTUDIANTES)
+15
+precioCuartoDia
+36
+(cantidadCuartos * PRECIOHABITACION)
+17
+precioCuartoTotal
+30
+(precioCuartoDia * _diasPaseo)
+4
+1
+124
+cantidadBuses, cantidadComidaTotal, precioComidaDia, precioComidaTotal,  cantidadCuartos, precioCuartoDia, precioCuartoTotal
+1

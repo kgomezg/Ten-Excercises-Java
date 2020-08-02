@@ -1,0 +1,47 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+5
+1
+27
+Leer lat1, lon1, lat2, lon2
+6
+1
+5
+RADIO
+4
+6371
+6
+2
+4
+lat1
+20
+Math.toRadians(lat1)
+4
+lon1
+20
+Math.toRadians(lon1)
+6
+2
+4
+lat2
+20
+Math.toRadians(lat2)
+4
+lon2
+20
+Math.toRadians(lon2)
+6
+1
+9
+resultado
+155
+((2 * Math.asin(Math.sqrt(Math.pow(Math.sin((_lat2 - _lat1)/ 2),2)+ Math.cos(_lat1) * Math.cos(_lat2)* Math.pow(Math.sin((_lon2 - _lon1)/ 2),2)))) * RADIO)
+5
+1
+18
+imprimir resultado
+1

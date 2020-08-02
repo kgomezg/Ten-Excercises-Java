@@ -1,0 +1,45 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+5
+1
+43
+kilosEntregar, kilosViaje, galonesKilometro
+6
+2
+22
+DISTANCIASASAIMABOGOTA
+2
+79
+19
+PRECIOGASOLINAGALON
+5
+10000
+6
+2
+14
+cantidadViajes
+38
+Math.round(kilosEntregar / kilosViaje)
+17
+kilometrosTotales
+42
+(cantidadViajes  * DISTANCIASASAIMABOGOTA)
+6
+2
+18
+gasolinaTotalViaje
+36
+kilometrosTotales * galonesKilometro
+19
+precioGasolinaTotal
+45
+gasolinaTotalViaje * PRECIOGASIONLINAPORGALON
+4
+1
+55
+cantidadViajes, gasolinaTotalViaje, precioGasolinaTotal
+1

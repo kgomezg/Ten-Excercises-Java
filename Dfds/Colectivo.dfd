@@ -1,0 +1,49 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+6
+2
+11
+PRECIOVIAJE
+5
+10000
+10
+FLETEVIAJE
+4
+2000
+6
+2
+25
+cantidadPersonasColectivo
+1
+0
+21
+cantidadPersonasHotel
+1
+0
+5
+1
+49
+cantidadPersonasColectivo,  cantidadPersonasHotel
+6
+3
+14
+cantidadViajes
+49
+cantidadPersonasHotel / cantidadPersonasColectivo
+18
+cantidadTotalViaje
+35
+cantidadPersonasHotel * PRECIOVIAJE
+18
+cantidadTotalFlete
+34
+cantidadPersonasHotel * FLETEVIAJE
+4
+1
+59
+cantidadViajes, cantidadTotalViaje, cantidadTotalFleteViaje
+1

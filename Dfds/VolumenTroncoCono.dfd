@@ -1,0 +1,53 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+6
+3
+2
+PI
+7
+Math.PI
+14
+radioPrincipal
+1
+0
+15
+alturaPrincipal
+1
+0
+6
+2
+15
+radioSecundario
+1
+0
+16
+alturaSecundario
+1
+0
+5
+1
+66
+radioPrincipal, alturaPrincipal, radioSecundario, alturaSecundario
+6
+3
+16
+AreaConoCompleto
+34
+(PI * Math.pow(radioPrincipal, 2))
+18
+AreaConoDeficiente
+35
+(PI * Math.pow(radioSecundario, 2))
+13
+volumenTronco
+124
+(alturaPrincipal * PI / 3) * (Math.pow(radioPrincipal, 2) + Math.pow(radioSecundario, 2) + radioPrincipal * radioSecundario)
+4
+1
+13
+volumenTronco
+1
